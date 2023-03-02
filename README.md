@@ -29,7 +29,7 @@ For downloaded datasets please place them in the 'data' folder.
 Set --config_file with a yaml configuration file to run the experiments. For example:
 ### bitcoinalpha dataset edge classification
 ```sh
-python3 run_exp.py --config_file "./experiments/parameters_bitcoin_otc_edgecls_meta_gcn.yaml"
+python3 run_exp.py --config_file "./experiments/parameters_bitcoin_alpha_edgecls_meta_gcn.yaml"
 ```
 ### bitcoinotc dataset edge classfication
 ```
