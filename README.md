@@ -33,7 +33,7 @@ python3 run_exp.py --config_file "./experiments/parameters_bitcoin_otc_edgecls_m
 ```
 ### bitcoinotc dataset edge classfication
 ```
-python3 run_exp.py --config_file "./experiments/parameters_bitcoin_otc_edgecls_meta_gcn.yaml
+python3 run_exp.py --config_file "./experiments/parameters_bitcoin_otc_edgecls_meta_gcn.yaml"
 ```
 
 
