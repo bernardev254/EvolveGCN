@@ -131,7 +131,7 @@ class Trainer():
 
 			if set_name not in ['TEST', 'VALID']:
 				loss = torch.stack(losses).mean()
-			# print(loss)
+			print(loss)
 			if set_name in ['TEST', 'VALID'] and self.args.task == 'link_pred':
 				self.logger.log_minibatch(predictions, s.label_sp['vals'], loss.detach(), adj = s.label_sp['idx'])
 			else:
